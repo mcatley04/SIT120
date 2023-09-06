@@ -1,0 +1,23 @@
+<style>
+        .contactme {
+            color: red;
+        }
+
+        .redtext {
+            color: red;
+        }
+
+        table {
+            width: 50%;
+            margin: 20px;
+        }
+
+        th {
+            background-color: #eee;
+        }
+
+        form {
+            background-color: #f0f0f0;
+            padding: 10px;
+        }
+    </style>

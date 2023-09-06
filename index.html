@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Michael's SIT120 Page</title>
+    <style>
+        h1 {
+            color: blue;
+        }
+
+        table {
+            width: 50%;
+            margin: 20px;
+        }
+
+        th {
+            background-color: #eee;
+        }
+
+        form {
+            background-color: #f0f0f0;
+            padding: 10px;
+        }
+    </style>
+    <!-- Link to the external CSS file -->
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+     <h1 style="color: green;">Welcome to My SIT102 Web Page</h1> <!-- Inline CSS Styling-->
+     <h1>Bachelor of Information Technology</h1> <!-- CSS Styling using internal styling-->
+    <!-- Embed Image from Pixabay -->
+    <img src="https://cdn.pixabay.com/photo/2023/08/29/18/01/rainbow-8221835_1280.jpg" alt="Copyright Free Image - Pixabay" width="300" height="200">
+    <div class="redtext">This embed image is a copyright free image. This text has also been coloured red from an external styling sheet.</div>
+
+
+    <!-- 2x2 Table -->
+    <table>
+        <tr>
+            <th>Title</th>
+            <th>Information</th>
+        </tr>
+        <tr>
+            <td>Name</td>
+            <td>Age</td>
+        </tr>
+        <tr>
+            <td>Michael Catley</td>
+            <td>19</td>
+        </tr>
+    </table>
+
+    <!-- COntact Me form -->
+    <div class="redtext">Contact Me</div>
+
+    <form action="#" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br>
+    
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br>
+    
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="4" cols="50" required></textarea><br>
+    
+        <input type="submit" value="Submit">
+    </form>
